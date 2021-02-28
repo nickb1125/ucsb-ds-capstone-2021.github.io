@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Week 5 &#8212; Data Science Capstone 2021</title>
+    <title>Update 2 &#8212; Data Science Capstone 2021</title>
     
   <link rel="stylesheet" href="../../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
@@ -397,6 +397,25 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#week-5">
+   Week 5
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#week-6">
+   Week 6
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
         </div>
     </div>
 </div>
@@ -405,10 +424,20 @@
         
               <div>
                 
-  <div class="section" id="week-5">
-<h1>Week 5<a class="headerlink" href="#week-5" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="update-2">
+<h1>Update 2<a class="headerlink" href="#update-2" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="week-5">
+<h2>Week 5<a class="headerlink" href="#week-5" title="Permalink to this headline">¶</a></h2>
 <p>This week we focused on cleaning the data into something we can collaboratively work with together. Instead of all of us having our own code for cleaning the data, we want to have a script that is used to clean data periodically so that we can work on the same exported data. The origianl file contains all recorded biotic interactions, and we want to create a file with only bees &lt;-&gt; plants interactions. <br />
 In order to spot all entries with bees, we filter the animal family with the seven (<a class="reference external" href="https://www.beelab.umn.edu/bees/bee-diversity">bee families</a>): Andrenidae, Apidae, Colletidae, Halictidae, Megachilidae, Melittidae, and Stenotritidae. The criterion for plants is simply TaxonKingdomName == “Plantae”. The interactions would be either bees as source and plants as target, or plants as source and bees as target, which we predict would have less entries. Other specific requirements include case insensitivity and removing duplicate entries.</p>
+</div>
+<div class="section" id="week-6">
+<h2>Week 6<a class="headerlink" href="#week-6" title="Permalink to this headline">¶</a></h2>
+<p>We compared the cleaning script from the Python team to that of the R team. We found that the observation count of the R and Python groups were close but not exact. The issue of duplicate rows was discussed in greater detail- trying to figure out whether duplicate observations were erroneous or true citations. We decided to use the reticulate package in R to call Python code from RMarkdown so that we would have one consistent cleaning script.
+In addition, we reviewed our visualizations- network graphs and heat maps, focusing on specifics such as color-coding nodes by taxon family. We also spent some time discussing our long-term objective relating to classifying certain bees as specialists or generalists. A generalist can thrive in various environmental and temporal conditions while a specialist can only survive in more specific conditions. For example, a bee species that interacts with 40 different plant families may be more generalized than a bee species that interacts with 10 plant families.</p>
+<p><img alt="" src="https://github.com/angelchen7/ucsb-ds-capstone-2021.github.io/blob/main/ucsb_ds_capstone_projects_2021/projects/ccber/genus_to_genus.png?raw=true" />
+<img alt="" src="https://github.com/angelchen7/ucsb-ds-capstone-2021.github.io/blob/main/ucsb_ds_capstone_projects_2021/projects/ccber/species_to_species.png?raw=true" /></p>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
