@@ -22,3 +22,9 @@ More importantly, we decided to focus on studying the different levels of specia
 -bee species to plant families, genera, and species
 
 We needed to explore these varying levels of specialization with the Apidae, Andrenidae, and Halictidae bee families.
+
+## Week 7
+
+After last weeks discussion of targeting different levels of specialization for bees, we were able to further explore these different levels. Specifically, we found heatmaps to be a great way of finding interactions at different levels that are significant. While the heatmaps enabled us to identify particularly interesting plant bee relationships, and also gave us a quick and general way to identify specialists/generalists, we found that comparing these relationships was hard to quantify using heatmaps. By using bar plots to better study and quantify the differences between relationships we had found, we were able to look into various levels of species interaction in a much more informatve context.
+
+
